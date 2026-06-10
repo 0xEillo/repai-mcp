@@ -1,7 +1,21 @@
-node_modules/
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
 dist/
+build/
+*.egg-info/
+
+# Env & secrets
 .env
 .env.*
 !.env.example
+
+# Audit logs
+data/
+*.jsonl
+
+# Misc
 *.log
 .DS_Store
